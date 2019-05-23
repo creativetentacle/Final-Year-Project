@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../css/sign_up.css">
+    <title>User Registration</title>
+</head>
+<body>
+    <div class="registration">
+        <h1>Sign Up Here</h1>
+        <div class="level-1">
+            <div class='user-personal-info user-name'>
+                    <h3>Name</h3>
+                    <input type ="text" placeholder="Full Name here" name="" value="">
+                </div>
+        
+            <div class='user-personal-info user-gender'>
+                <h3>Gender</h3>
+                <form>
+                <input list="user-sex" placeholder="Choose gender" name="sex">
+                    <datalist id="user-sex">
+                            <option value="Male">
+                            <option value="Female">
+                            <option value="Transgender">
+                    </datalist>
+                </form> 
+            </div>
+        </div>
+        <div class="level-2">
+            <div class='user-personal-info user-email'>
+                    <h3>E-mail</h3>
+                    <input type="text" placeholder="abc@xyz.com" name="" value="">
+                </div>
+        </div>
+        <div class="level-3">
+            <div class='user-personal-info'>
+                    <h3>Username</h3>
+                    <input type="text" placeholder="Eg: John" name="" value="">
+            </div>
+            <div class='user-personal-info'>
+                    <h3>Enter Password</h3>
+                    <input type="password" placeholder="At least 8 characters long" name="" value="">
+            </div>
+            <div class='user-personal-info'>
+                <h3>Confirm Password</h3>
+                <input type="password" placeholder="Re-type password" name="" value="">
+            </div>
+        </div>
+        
+        <input class="btn" type="button" name="" value="Submit">
+    </div>
+</body>
+</html>
