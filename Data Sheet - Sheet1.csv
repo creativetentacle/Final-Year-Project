@@ -1,0 +1,16 @@
+Actual Qno,Q.no,Question description,Option 1,Option 2,Option 3,Option 4,Correct Option,Difficulty ,Guess ,Discrimination
+1,1,Why so JavaScript and Java have similar name?,A. JavaScript is a stripped-down version of Java,B. JavaScript's syntax is loosely based on Java's,C. They both originated on the island of Java,D. None of the above,B,1,2,3
+4,2,__________ JavaScript is also called server-side JavaScript.,A. Microsoft,B. Navigator,C. LiveWire,D. Native,C,2,3,4
+2,3,"When a user views a page containing a JavaScript program, which machine actually executes the script?",A. The User's machine running a Web browser,B. The Web server,C. A central machine deep within Netscape's corporate offices,D. None of the above,A,3,4,5
+9,4,Which of the following are capabilities of functions in JavaScript?,A. Return a value,B. Accept parameters and Return a value,C. Accept parameters,D. None of the above,C,4,5,6
+12,5,How does JavaScript store dates in a date object?,"A. The number of milliseconds since January 1st, 1970","B. The number of days since January 1st, 1900",C. The number of seconds since Netscape's public stock offering.,D. None of the above,A,5,6,7
+18,6,Which types of image maps can be used with JavaScript?,A. Server-side image maps,B. Client-side image maps,C. Server-side image maps and Client-side image maps,D. None of the above,B,6,7,8
+19,7,Which of the following navigator object properties is the same in both Netscape and IE?,A. navigator.appCodeName,B. navigator.appName,C. navigator.appVersion,D. None of the above,A,7,8,9
+21,8,What does the <noscript> tag do?,A. Enclose text to be displayed by non-JavaScript browsers.,B. Prevents scripts on the page from executing.,C. Describes certain low-budget movies.,D. None of the above,A,8,9,10
+24,9,Which of the following best describes JavaScript?,A. a low-level programming language.,B. a scripting language precompiled in the browser.,C. a compiled scripting language.,D. an object-oriented scripting language.,D,9,10,11
+25,10,Choose the server-side JavaScript object?,A. FileUpLoad,B. Function,C. File,D. Date,C,10,11,12
+29,11,"Which of the following event fires when the form element loses the focus: <button>, <input>, <label>, <select>, <textarea>?",A. onfocus,B. onblur,C. onclick,D. ondblclick,B,11,12,13
+35,12,The _______ method of an Array object adds and/or removes elements from an array.,A. Reverse,B. Shift,C. Slice,D. Splice,D,12,13,14
+38,13,____________ is the tainted property of a window object.,A. Pathname,B. Protocol,C. Defaultstatus,D. Host,C,13,14,15
+43,14,"_________ is a wrapped Java array, accessed from within JavaScript code.",A. JavaArray,B. JavaClass,C. JavaObject,D. JavaPackage,A,14,15,16
+48,15,The syntax of a blur method in a button object is ______________,A. Blur(),B. Blur(contrast),C. Blur(value),D. Blur(depth),A,15,16,17
