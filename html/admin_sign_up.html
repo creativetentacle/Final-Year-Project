@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../css/sign_up.css">
+   <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> --> 
+    <title>User Registration</title>
+</head>
+<body>
+        <div class="registration">
+                <h1>Admin Registration</h1>
+                <div class='user-personal-info'>
+                    <h3>Full Name</h3>
+                    <!-- <i class="fa fa-user-tie" aria-hidden="true"></i> -->
+                    <input type ="text" placeholder=" Eg: Arindam Roy" name="" value="">
+            </div>
+            <div class='user-personal-info'>
+                    <h3>Department</h3>
+                   <!--<i class="fas fa-venus-mars" aria-hidden="true"></i> --> 
+                    <form>
+                    <input list="user-dept" placeholder="Choose Department" name="dept">
+                        <datalist id="user-dept">
+                              <option value="Cmputer Science">
+                              <option value="Mathematics">
+                              <option value="English">
+                        </datalist>
+                    </form> 
+            </div>
+            <div class='user-personal-info'>
+                    <h3>Registration Number</h3>
+                    <input type="text" placeholder="Registration number" name="" value="">
+            </div>
+                <div class='user-personal-info'>
+                    <h3>Username</h3>
+                    <input type="text" placeholder="Eg: John" name="" value="">
+                </div>
+                <div class='user-personal-info'>
+                    <h3>Enter Password</h3>
+                    <input type="password" placeholder="At least 8 characters long" name="" value="">
+                </div>
+                <div class='user-personal-info'>
+                    <h3>Confirm Password</h3>
+                    <input type="password" placeholder="Re-type password" name="" value="">
+                </div>
+                <input class="btn" type="button" name="" value="Submit" onclick="window.location.href='entry.html'">
+            </div>
+            <footer id="footer">
+                &copy;QuizSmart Learning Platform
+            </footer>
+
+    
+</body>
+</html>
